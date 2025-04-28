@@ -13,9 +13,11 @@ cd foodtruck-korea
 ```
 
 2. Get the Gurobi license
+
 It is recommended to follow the installation instructions provided in the [video](https://www.youtube.com/watch?v=OYuOKXPJ5PI).
 
 3. Install SUMO
+
 It is recommended to follow the installation instructions provided in the official [SUMO documentation](https://sumo.dlr.de/docs/Installing/index.html).
 
 4. Install dependencies
