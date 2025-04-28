@@ -11,16 +11,20 @@ The script collects real-time data and uses an optimization solver to direct tru
 git clone git@github.com:2jungeuni/foodtruck-korea.git
 cd foodtruck-korea
 ```
+
 2. Get the Gurobi license
 
 It is recommended to follow the installation instructions provided in the [video](https://www.youtube.com/watch?v=OYuOKXPJ5PI).
+
 3. Install SUMO
 
 It is recommended to follow the installation instructions provided in the official [SUMO documentation](https://sumo.dlr.de/docs/Installing/index.html).
+
 4. Install dependencies
 ```bash
 pip install traci sumolib
 ```
+
 5. Configure SUMO
 
 Ensure ```SUMO_HOME``` is set:
@@ -28,6 +32,7 @@ Ensure ```SUMO_HOME``` is set:
 export SUMO_HOME=/path/to/sumo
 export PATH=$PATH:$SUMO_HOME/bin:$SUMO_HOME/tools
 ```
+
 6. Edit ```config.py```
 
 Update the paths or parameters (e.g., ```sumo_config```, ```end```, ```interval```, etc.) to match your scenario.
